@@ -11,5 +11,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toggleAddtask(){
+    console.log("hice click en header");
+  }
 
 }
